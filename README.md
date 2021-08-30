@@ -27,7 +27,7 @@
 네이티브 앱을 통해 접근하는 경우 랜딩, 전환 완료 페이지에 도달하기까지 아래와 같은 URL로 해당 파라미터들이 전달되어야 합니다.
 
 ```
-http://landing.page.com?tx_id=xxxxx&bid_id=yyyyy
+http://landing.page.com?tx_id=XXXXXXXXXXXXXXXXXXXX
 ```
 
 ##### 스크립트
