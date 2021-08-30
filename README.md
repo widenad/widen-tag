@@ -13,10 +13,9 @@
 
 | Name | Required | Description | Example |
 | :--- | :--- | :--- | :--- |
-| `tx_id` | O | Track ID | _978454f85837562693186863104891c_ |
-| `bid_id` | O | Bid ID | _bnr_4b58837562693363023872bfa4_ |
-| `e_n` | O | Event Name | _"OPEN"_, _"CONVERSION"_,  _"PURCHASE"_  |
-| `e_v` |  | Event Value | `PRODUCT_ID`, `USER_ID` |
+| `tx_id` | O | Track ID | _XXXXXXXXXXXXXXXXXXXX_ |
+| `e_n` | O | Event Name | _"OPEN"_, _"CONVERSION"_,  _"PURCHASE"_, _"PRE_REGISTRATION"_   |
+| `e_v` |  | Event Value | string : `p_1234567`, JSON : `{"product_id": "p_1234567"}` |
 
 
 ### 랜딩
